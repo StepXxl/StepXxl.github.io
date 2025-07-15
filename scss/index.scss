@@ -1,0 +1,40 @@
+@mixin center {
+    text-align: center;
+    align-items: center;
+}
+
+
+.photo {
+    text-align: center;
+    & img {
+        border-radius: 50%;
+        width: 350px;
+    }
+}
+
+.about {
+    & h1 {
+        @include center;
+        font-size: 60px;
+        font-family: "Montserrat", sans-serif; 
+    }
+    & p {
+        @include center;
+        width: 70%;
+        margin: auto;
+        font-size: 30px;
+        margin-top: 70px;
+        font-family: "Montserrat", sans-serif;
+    }
+}
+
+.projects {
+    & h1 {
+        @include center;
+        font-size: 50px;
+        margin-top: 170px;
+    }
+}
+
+
+
