@@ -1,0 +1,30 @@
+
+
+.about {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    right: 1%;
+    left: 1%;
+    width: auto;
+}
+
+.left-about {
+        margin-top: 30px;
+    width: 50%;
+    text-align: center;
+}
+
+.left-about h1 {
+    font-size: 50px;
+}
+
+.left-about p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.right-about img {   
+    border-radius: 40%;
+    width: 450px;
+}

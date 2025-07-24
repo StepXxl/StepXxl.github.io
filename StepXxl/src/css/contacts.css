@@ -1,0 +1,27 @@
+.contacts {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts a {
+    background-color: #999999;
+    width: 350px;
+    border-radius: 30px;
+    scale: 0.85;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-decoration: none;
+    color: black;
+    transition: scale 0.3s;
+}
+
+.contacts a:hover {
+    scale: 0.9;
+}
+
+.contacts a h2 {
+    font-weight: 500;
+}
